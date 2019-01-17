@@ -12,7 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url('./bg.jpeg');
+    background-image: url('../img/bg.jpeg');
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: #E0335E;
