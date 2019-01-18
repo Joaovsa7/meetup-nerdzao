@@ -134,7 +134,6 @@ fieldset > legend {
     font-weight: bold;
 }
 .box-fieldset{
-    padding: 2%;
     display: grid;
     justify-self: flex-start;
     grid-column-gap: 20px;

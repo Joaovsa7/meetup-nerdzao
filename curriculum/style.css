@@ -6,8 +6,7 @@ body,h1,h2,h3,h4,h5, p {
 
 .container {
     height: 100%;
-    padding: 5%;
-    background-color: rgb(124, 42, 12);    
+    padding: 3%;
 }
 
 .curriculum{
@@ -25,13 +24,36 @@ aside {
     width: 400px;
     background-color: rgb(11, 70, 88);
     padding: 40px 20px;
-}
-.aside-box {
-    border: 1px solid white;
     color: white;
+}
+.aside-title {
+    font-size: 1.3rem;
+}
+.aside-item {
+    font-size: .9rem;
+}
+aside > div > p {
+    font-size: 1.3rem;
+}
+ul {
+    padding: 0;
+}
+ul > li {
+    margin: 5px 0px;
 }
 .aside-box > ul > li {
     list-style-type: none;
+}
+.aside-box > li {
+    margin: 5px 0;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
 }
 .basicos {
     display: flex;
