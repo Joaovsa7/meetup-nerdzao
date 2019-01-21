@@ -24,6 +24,7 @@ header > h1, p {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* form terá 4 colunas 1fr representa uma fração */
 form {
     max-width: 1200px;
     padding: 20px;
@@ -50,9 +51,9 @@ input, select {
     transition: cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+/* tirando a borda padrão dos inputs */
 input:focus{
     outline: none;
-    transition: all .4s;
 }
 
 textarea {
@@ -67,6 +68,7 @@ textarea {
     border: 1px solid #E0335E;
 }
 
+/* o nosso sistema de grid, lembrando que cada span corresponde a uma coluna da nossa grid */
 .full {
     grid-column: span 4;
 }
@@ -119,11 +121,11 @@ textarea {
     margin: 10px 0px;
     margin: 0 auto;
 }
+/* Quando passar o mouse por cima, o botão mudará a sua cor de fundo */
 .submit:hover{
     background-color: #E0335E;
     color: white;
 }
-
 
 fieldset{
     border: none;

@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- o UTF-8 é o conjunto de códigos e acentos de diversos idiomas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- aqui estou linkando a fonte chamada Montserrat -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Gerador de curriculum</title>
 </head>
 <body>
     <header>
-        <h1 id="title">Faça o seu curriculum em minutos!</h1>
+        <h1>Faça o seu curriculum em minutos!</h1>
         <p id="descript">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quo quod, maxime neque labore eos dolore fugiat necessitatibus quas architecto dolores molestiae fuga velit commodi et explicabo at? Asperiores, iste!</p>
+        <!-- o botão possui duas classes, uma chamada 'doIt'e a outra 'btn', na classe btn eu passo a estilização
+        padrao de todos os botoes da minha página, assim não preciso escrever o código duas vezes -->
         <button class="doIt btn">Fazer o curriculum</button>
     </header>
     <main>
+        <!-- O formulário tem um sistema de grid, para que eu possa alinhar os meus fieldsets
+        um ao lado do outro!-->
         <form>
             <fieldset class="full">
                 <legend>Dados Básicos</legend>
                 <div class="box-fieldset">
+                    <!-- cada input possui duas classes, uma chamda box-input ( onde eu passo toda a estilização dos inputs)
+                    e outra chamada 'two,one,three,full' que é referente ao grid do fieldset -->
                     <div class="box-input two">
                         <label for="name">Nome Completo</label>
                         <input type="text" minlength="6" maxlength="40" name="name" placeholder="Insira o seu nome" required>
@@ -194,6 +202,7 @@
                                 </div>
                             </div>
                         </fieldset>
+                        <!-- a classe full no botao, é para ele ficar com um tamanho maior -->
                         <button type="submit" class="btn submit full">Enviar</button>
                     </form>
                 </main>
